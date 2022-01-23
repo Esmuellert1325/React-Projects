@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar {
+    margin: auto;
+    height: 80px;
+    background: #F55A5A;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.navbar i {
+    margin-top: 12px;
+    padding: 15px 4px;
+    font-size: 35px;
+}
+
+.navbar h3 {
+    margin-top: 15px;
+    padding: 15px 4px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; 
+}
+
+.card img {
+    margin: auto;
+    margin-right: 2px;
+    width: 180px;
+    border-radius: 9px;
+}
+
+.travel-data {
+    margin-left: 15px;
+}
+
+.travel-data--location {
+    margin: auto;
+    width: 800px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.travel-data--location i {
+    color: #F55A5A;
+    padding-right: 8px;
+}
+
+.travel-data--location h3 {
+    margin-top: -3px;
+    padding-right: 12px;
+    color: #2B283A;
+    font-weight:300;
+    letter-spacing: 1px;
+}
+
+.travel-data--location a {
+    color: #918E9B;
+}
+
+.travel-data h1 {
+    margin-top: 10px;
+    margin-right: 470px;
+}
+
+.planned-year {
+    font-weight: 500;
+    color: #2B283A;
+    margin-right: 535px;
+    margin-top: 30px;
+}
+
+.description {
+    color: #2B283A;
+    font-weight: 300;
+    margin-right: 500px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.line {
+    padding-top: 25px;
+    margin: auto;
+    width: 600px;
+    height: 1px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
